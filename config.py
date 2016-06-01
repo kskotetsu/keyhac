@@ -46,8 +46,12 @@ def configure(keymap):
             if window.getProcessName() in ("xyzzy.exe",          # xyzzy
                                            "VirtualBox.exe",     # VirtualBox
                                            "XWin.exe",           # Cygwin/X
+                                           "Code.exe",           # Visual Studio Code
                                            "Xming.exe",          # Xming
                                            "ttermpro.exe",       # teraterm
+                                           "ConEmu64.exe",      # ConEmu
+                                           "ConEmu.exe",      # ConEmu
+                                           "cmd.exe"             # cmd
                                            "MobaXterm.exe",      # MobaXterm
                                            "mstsc.exe"):         # リモートデスクトップ接続
 
